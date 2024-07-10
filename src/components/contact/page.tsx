@@ -1,15 +1,16 @@
 import { ContactDeveloperProps } from '@/interface/contact/interface'
-import React, { useState } from 'react'
+import React, { ReactElement, useState } from 'react'
 import { AiOutlineClose } from 'react-icons/ai'
 import { toast } from 'react-toastify'
 
-function ContactDeveloper(props: any) {
+function ContactDeveloper(props: any): ReactElement<ContactDeveloperProps> {
     const [ email, setEmail ] = useState('')
     const [ message, setMessage ] = useState('')
     const [ isSubmit, setIsSubmit ] = useState(false)
 
     const submitContact = async (e: any) => {
         e.preventDefault()
+        alert(1)
     }
 
     return (
