@@ -1,3 +1,9 @@
 export interface ContactDeveloperProps {
-    props : Boolean;
+    email: string;
+    message: string;
+    isSubmit: boolean;
+}
+
+export interface LoginProps {
+    props: Boolean;
 }
