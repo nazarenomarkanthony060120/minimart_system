@@ -10,7 +10,7 @@ function Home() {
             <Header />
             <div className="flex items-center justify-center gap-5 max-md:flex-col ">
                 <TypeAnimationGIF />
-                <div className="flex flex-col text-slate-200 gap-10 w-96 max-md:w-full max-md:text-center">  
+                <div className="flex flex-col text-slate-200 gap-10 w-96 max-md:w-full max-md:text-center">
                   <div className="flex flex-col gap-3 px-8">
                       <TypeAnimationText />
                       <span className='font-light text-justify max-md:text-center'>Inventory system it  control and manage all products in the minimart in real time and integrated to make it easier to develop your business</span>
